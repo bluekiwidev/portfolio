@@ -143,6 +143,62 @@ export let DATA = {
 					href: 'https://ecal.bluekiwi.lol',
 					icon: Globe
 					// icon: <Icons.globe className="size-3" />,
+				},
+				{
+					type: 'Source',
+					href: 'https://github.com/bluekiwidev/everycalendar',
+					icon: Github
+					// icon: <Icons.github className="size-3" />,
+				}
+			],
+			image: '',
+			video: ''
+		},
+		{
+			title: 'Periodic Table Generator',
+			href: '',
+			dates: 'April 2026 - Present',
+			active: true,
+			description:
+				'A tool written in go to generate 6.5 x 5cm cards for each element in the periodic table to be displayed on a wall.',
+			technologies: [
+				'Go',
+				'The printer',
+			],
+			links: [
+				{
+					type: 'Source',
+					href: 'https://github.com/bluekiwidev/Periodic-table-generator',
+					icon: Github
+					// icon: <Icons.github className="size-3" />,
+				}
+			],
+			image: '',
+			video: ''
+		},
+		{
+			title: 'Totally not extremely complicated recipes',
+			href: 'https://tnecr.bluekiwi.lol',
+			dates: 'Jan 2026 - Present',
+			active: true,
+			description:
+				'An archive of recipes me and my friend have made.',
+			technologies: [
+				'HTML',
+				'Cloudflare Workers',
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://tnecr.bluekiwi.lol',
+					icon: Globe
+					// icon: <Icons.globe className="size-3" />,
+				},
+				{
+					type: 'Source',
+					href: 'https://github.com/bluekiwidev/totally-not-extremely-complicated-recipes',
+					icon: Github
+					// icon: <Icons.github className="size-3" />,
 				}
 			],
 			image: '',
