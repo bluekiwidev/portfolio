@@ -41,53 +41,24 @@ export let DATA = {
 
 	projects: [
 		{
-			title: 'Chat Collect',
+			title: 'Notely',
 			href: 'https://chatcollect.com',
-			dates: 'Jan 2024 - Feb 2024',
+			dates: 'Apr 2026 - Present',
 			active: true,
 			description:
-				'With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.',
+				'An open source, visual colaboration, idea sharing platform.',
 			technologies: [
-				'Next.js',
+				'Svelte',
 				'Typescript',
 				'PostgreSQL',
-				'Prisma',
+				'Cloudflare Workers',
 				'TailwindCSS',
-				'Stripe',
-				'Shadcn UI',
-				'Magic UI'
+				'(Soon to be) Magic UI'
 			],
 			links: [
 				{
 					type: 'Website',
-					href: 'https://chatcollect.com',
-					// icon: <Icons.globe className="size-3" />,
-					icon: Globe
-				}
-			],
-			image: '',
-			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4'
-		},
-		{
-			title: 'Magic UI',
-			href: 'https://magicui.design',
-			dates: 'June 2023 - Present',
-			active: true,
-			description: 'Designed, developed and sold animated UI components for developers.',
-			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Prisma',
-				'TailwindCSS',
-				'Stripe',
-				'Shadcn UI',
-				'Magic UI'
-			],
-			links: [
-				{
-					type: 'Website',
-					href: 'https://magicui.design',
+					href: 'https://notely.marwon128.workers.dev',
 					// icon: <Icons.globe className="size-3" />,
 					icon: Globe
 				},
@@ -99,71 +70,83 @@ export let DATA = {
 				}
 			],
 			image: '',
-			video: 'https://cdn.magicui.design/bento-grid.mp4'
+			video: ''
 		},
 		{
-			title: 'llm.report',
-			href: 'https://llm.report',
-			dates: 'April 2023 - September 2023',
-			active: true,
-			description:
-				'Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.',
+			title: 'Calduino',
+			href: '',
+			dates: 'May 2025 - Aug 2025',
+			active: false,
+			description: 'A half working, half broken calculator built with two arduino boards.',
 			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Prisma',
-				'TailwindCSS',
-				'Shadcn UI',
-				'Magic UI',
-				'Stripe',
-				'Cloudflare Workers'
+				'C++',
 			],
 			links: [
 				{
-					type: 'Website',
-					href: 'https://llm.report',
-					icon: Globe
-					// icon: <Icons.globe className="size-3" />,
-				},
-				{
 					type: 'Source',
-					href: 'https://github.com/dillionverma/llm.report',
+					href: 'https://github.com/bluekiwidev/Calduino',
 					icon: Github
 					// icon: <Icons.github className="size-3" />,
 				}
 			],
 			image: '',
-			video: 'https://cdn.llm.report/openai-demo.mp4'
+			video: ''
 		},
 		{
-			title: 'Automatic Chat',
-			href: 'https://automatic.chat',
-			dates: 'April 2023 - March 2024',
+			title: 'Li-ion-battery-visualiser',
+			href: 'https://visualbattery.marwon128.workers.dev',
+			dates: 'Apr 2026 - Apr 2026',
 			active: true,
 			description:
-				'Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.',
+				'A website to design and visualise physical designs for lithium ion batteries.',
 			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Prisma',
-				'TailwindCSS',
-				'Shadcn UI',
-				'Magic UI',
-				'Stripe',
-				'Cloudflare Workers'
+				'JavaScript',
+				'Cloudflare Workers',
+				'WebGL',
+				'Mix of models'
 			],
 			links: [
 				{
 					type: 'Website',
-					href: 'https://automatic.chat',
+					href: 'https://visualbattery.marwon128.workers.dev',
+					icon: Globe
+					// icon: <Icons.globe className="size-3" />,
+				},
+				{
+					type: 'Source',
+					href: 'https://github.com/bluekiwidev/Li-ion-battery-visualiser',
+					icon: Github
+					// icon: <Icons.github className="size-3" />,
+				}
+			],
+			image: '',
+			video: ''
+		},
+		{
+			title: 'Every Calendar',
+			href: 'https://ecal.bluekiwi.lol',
+			dates: 'April 2026 - Present',
+			active: true,
+			description:
+				'A publically editable calendar for dedicating days to whatever you want.',
+			technologies: [
+				'Svelte',
+				'JavaScript',
+				'Cloudlfare D1',
+				'Cloudflare Workers',
+				'(Soon to be) Magic UI',
+
+			],
+			links: [
+				{
+					type: 'Website',
+					href: 'https://ecal.bluekiwi.lol',
 					icon: Globe
 					// icon: <Icons.globe className="size-3" />,
 				}
 			],
 			image: '',
-			video: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4'
+			video: ''
 		}
 	],
 };
