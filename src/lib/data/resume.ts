@@ -31,13 +31,8 @@ export let DATA = {
 	name: 'Bluekiwidev',
 	initials: 'BKD',
 	url: 'https://github.com/bluekiwidev',
-	//img: 'https://i.pinimg.com/736x/9e/dc/a6/9edca66eba199828bda2dbaf35642154.jpg',
-	//location: 'Earth',
-	//locationLink: 'https://www.google.com/maps/place/mumbai',
 	description:
 		'A software engineer that loves to build unique solutions to unique problems.',
-	//summary:
-	//	'At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Sil// icon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).',
 	avatarUrl: 'https://avatars.githubusercontent.com/u/111331826?v=4',
 	skills: [
 		'Svelte',
@@ -55,8 +50,6 @@ export let DATA = {
 		{ href: '#', icon: CodeIcon, label: 'Projects' }
 	],
 	contact: {
-		email: 'hello@example.com',
-		tel: '+123456789',
 		social: {
 			GitHub: {
 				name: 'GitHub',
