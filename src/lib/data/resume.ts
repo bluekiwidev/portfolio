@@ -3,29 +3,6 @@ import { CodeIcon, Github, Globe, HomeIcon, NotebookIcon, Youtube } from 'lucide
 import GithubSvg from '$lib/imgs/github.svg';
 import GithubDarkSvg from '$lib/imgs/github-dark.svg';
 
-import PeerListSvg from '$lib/imgs/peerlist.svg';
-import PeerListDarkSvg from '$lib/imgs/peerlist-dark.svg';
-
-import GmailSvg from '$lib/imgs/gmail.svg';
-import GmailDarkSvg from '$lib/imgs/gmail-dark.svg';
-
-import LinkedinSvg from '$lib/imgs/linkedin.svg';
-import LinkedinDarkSvg from '$lib/imgs/linkedin-dark.svg';
-
-import TwitterSvg from '$lib/imgs/x.svg';
-import TwitterDarkSvg from '$lib/imgs/x-dark.svg';
-
-import AtomicImg from '$lib/imgs/atomic.png';
-import ShopifyImg from '$lib/imgs/shopify.svg';
-import NvidiaImg from '$lib/imgs/nvidia.png';
-import SplunkImg from '$lib/imgs/splunk.svg';
-import LimeImg from '$lib/imgs/lime.svg';
-import MitreMediaImg from '$lib/imgs/mitremedia.png';
-import BuildSpaceImg from '$lib/imgs/buildspace.jpg';
-import WaterLooImg from '$lib/imgs/waterloo.png';
-import LaurierImg from '$lib/imgs/laurier.png';
-import IBImg from '$lib/imgs/ib.png';
-
 // Your resume data
 export let DATA = {
 	name: 'Bluekiwidev',
