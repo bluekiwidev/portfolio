@@ -24,7 +24,7 @@ export let DATA = {
 	navbar: [
 		{ href: '/', icon: HomeIcon, label: 'Home' },
 		{ href: '/blog', icon: NotebookIcon, label: 'Blog' },
-		{ href: '#', icon: CodeIcon, label: 'Projects' }
+		{ href: '/#projects', icon: CodeIcon, label: 'Projects' }
 	],
 	contact: {
 		social: {
