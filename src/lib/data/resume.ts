@@ -30,7 +30,7 @@ export let DATA = {
 		social: {
 			GitHub: {
 				name: 'GitHub',
-				url: 'https://github.com/SikandarJODD/portfolio-template',
+				url: 'https://github.com/bluekiwidev',
 				// // icon: Icons.github,
 				icon: GithubSvg,
 				navbar: true,
